@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <rect width="400" height="500" fill="#111111"/>
+  <pattern id="geo2" x="0" y="0" width="48" height="48" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="48" x2="48" y2="0" stroke="#C6FF00" stroke-width="0.5" opacity="0.2"/>
+  </pattern>
+  <rect width="400" height="500" fill="url(#geo2)"/>
+  <!-- Backpack icon -->
+  <rect x="140" y="160" width="120" height="150" rx="16" fill="none" stroke="#C6FF00" stroke-width="3"/>
+  <!-- straps -->
+  <path d="M165 160 Q155 140 160 120 Q165 105 175 115 Q180 130 180 160" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <path d="M235 160 Q245 140 240 120 Q235 105 225 115 Q220 130 220 160" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <!-- top handle -->
+  <path d="M180 160 Q200 148 220 160" fill="none" stroke="#C6FF00" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- pocket -->
+  <rect x="158" y="220" width="84" height="60" rx="8" fill="none" stroke="#C6FF00" stroke-width="2" opacity="0.7"/>
+  <!-- zipper -->
+  <line x1="165" y1="235" x2="235" y2="235" stroke="#C6FF00" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,4"/>
+  <!-- laptop icon inside -->
+  <rect x="168" y="175" width="64" height="40" rx="4" fill="none" stroke="#C6FF00" stroke-width="1.5" opacity="0.5"/>
+  <!-- Label -->
+  <text x="200" y="375" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="4">BACKPACKS</text>
+  <text x="200" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#AAAAAA">Heavy-duty courier packs</text>
+  <polygon points="400,0 340,0 400,60" fill="#C6FF00" opacity="0.12"/>
+  <polygon points="0,500 60,500 0,440" fill="#C6FF00" opacity="0.12"/>
+</svg>

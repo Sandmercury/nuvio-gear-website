@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nuvio Gear — We build gear for those who build cities. Our story, our team, our mission to equip the world's couriers.">
+  <title>About Us — Nuvio Gear</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <div class="announcement-bar" id="announce-bar">
+    <p class="announcement-bar__text">FREE SHIPPING ON ORDERS OVER €50 &nbsp;|&nbsp; B2B Fleet Discounts Available</p>
+    <button class="announcement-bar__close" aria-label="Dismiss announcement">✕</button>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Nuvio Gear Home"><img src="assets/images/nuvio_white_transparent2.png" alt="Nuvio Gear" style="height: 80px; width: auto;"></a>
+      <ul class="nav-links" role="list">
+        <li class="nav-item">
+          <a href="products.html" class="nav-link" aria-haspopup="true">Catalogue</a>
+          <div class="mega-dropdown" role="region" aria-label="Catalogue categories">
+            <a href="products.html?cat=safety-equipment" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M20 4L6 10v10c0 7 5.8 13.5 14 15.5 8.2-2 14-8.5 14-15.5V10L20 4z" stroke-width="2"/><path d="M14 20l4 4 8-8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div><div class="mega-dropdown-label">Safety Equipment</div><div class="mega-dropdown-desc">Helmets, vests &amp; first aid</div></div></a>
+            <a href="products.html?cat=communication" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="20" cy="14" r="6" stroke-width="2"/><rect x="9" y="13" width="4" height="6" rx="2"/><rect x="27" y="13" width="4" height="6" rx="2"/><path d="M12 14 Q12 8 20 8 Q28 8 28 14" fill="none"/></svg><div><div class="mega-dropdown-label">Communication</div><div class="mega-dropdown-desc">Intercoms &amp; headsets</div></div></a>
+            <a href="products.html?cat=vehicles" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="28" r="5" stroke-width="2"/><circle cx="30" cy="28" r="5" stroke-width="2"/><path d="M10 28 L18 14 L24 14 L30 28" stroke-linecap="round" stroke-linejoin="round"/><line x1="18" y1="14" x2="10" y2="22" stroke-linecap="round"/></svg><div><div class="mega-dropdown-label">Vehicles</div><div class="mega-dropdown-desc">E-bikes, scooters &amp; cargo</div></div></a>
+            <a href="products.html?cat=apparel" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 6 L6 12 L10 14 L10 34 L30 34 L30 14 L34 12 L26 6 Q23 10 20 10 Q17 10 14 6Z" stroke-width="2" stroke-linejoin="round"/></svg><div><div class="mega-dropdown-label">Apparel &amp; Uniforms</div><div class="mega-dropdown-desc">Jackets, shirts &amp; pants</div></div></a>
+            <a href="products.html?cat=delivery-bags" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="8" y="12" width="24" height="22" rx="4" stroke-width="2"/><path d="M13 12 L13 8 Q13 5 20 5 Q27 5 27 8 L27 12" fill="none"/><line x1="8" y1="20" x2="32" y2="20"/></svg><div><div class="mega-dropdown-label">Delivery Bags &amp; Storage</div><div class="mega-dropdown-desc">Hard bags, pizza &amp; grocery</div></div></a>
+            <a href="products.html?cat=mobile-tech" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="13" y="5" width="14" height="24" rx="3" stroke-width="2"/><circle cx="20" cy="25" r="2"/><line x1="16" y1="9" x2="24" y2="9" stroke-linecap="round"/></svg><div><div class="mega-dropdown-label">Mobile &amp; Tech</div><div class="mega-dropdown-desc">Holders, cameras &amp; cases</div></div></a>
+            <a href="products.html?cat=financial-security" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="6" y="12" width="28" height="20" rx="3" stroke-width="2"/><path d="M12 12 L12 9 Q12 6 20 6 Q28 6 28 9 L28 12" fill="none"/><circle cx="20" cy="22" r="4"/></svg><div><div class="mega-dropdown-label">Financial &amp; Security</div><div class="mega-dropdown-desc">Cash bags &amp; wrist bags</div></div></a>
+            <a href="products.html?cat=security-tracking" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="12" y="18" width="16" height="14" rx="3" stroke-width="2"/><path d="M15 18 L15 13 Q15 7 20 7 Q25 7 25 13 L25 18" fill="none"/><circle cx="20" cy="25" r="3" fill="currentColor" opacity="0.5"/></svg><div><div class="mega-dropdown-label">Security &amp; Tracking</div><div class="mega-dropdown-desc">Smart locks &amp; GPS</div></div></a>
+            <a href="products.html?cat=charging" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="10" y="8" width="20" height="28" rx="3" stroke-width="2"/><path d="M22 18 L18 24 L22 24 L18 30" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><div><div class="mega-dropdown-label">Charging Solutions</div><div class="mega-dropdown-desc">Fast chargers &amp; power banks</div></div></a>
+            <a href="products.html?cat=delivery-boxes" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="6" y="14" width="28" height="20" rx="2" stroke-width="2"/><polyline points="6,20 20,8 34,20" stroke-linejoin="round"/><line x1="14" y1="34" x2="14" y2="22"/><line x1="26" y1="34" x2="26" y2="22"/><line x1="14" y1="22" x2="26" y2="22"/></svg><div><div class="mega-dropdown-label">Delivery Boxes</div><div class="mega-dropdown-desc">Hard case &amp; rear rack boxes</div></div></a>
+            <a href="products.html?cat=weather-protection" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M10 20 Q20 6 30 20 L30 32 Q20 36 10 32 Z" stroke-width="2"/><line x1="14" y1="38" x2="14" y2="32" stroke-linecap="round"/><line x1="20" y1="38" x2="20" y2="32" stroke-linecap="round"/><line x1="26" y1="38" x2="26" y2="32" stroke-linecap="round"/></svg><div><div class="mega-dropdown-label">Weather Protection</div><div class="mega-dropdown-desc">Raincoats &amp; waterproofs</div></div></a>
+            <a href="products.html?cat=protective-gear" class="mega-dropdown-item"><svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><ellipse cx="15" cy="22" rx="6" ry="10" stroke-width="2"/><line x1="10" y1="18" x2="20" y2="18"/><line x1="10" y1="26" x2="20" y2="26"/><ellipse cx="28" cy="18" rx="5" ry="8" stroke-width="2"/><line x1="24" y1="15" x2="32" y2="15"/><line x1="24" y1="21" x2="32" y2="21"/></svg><div><div class="mega-dropdown-label">Protective Gear</div><div class="mega-dropdown-desc">Knee &amp; elbow guards</div></div></a>
+          </div>
+        </li>
+        <li><a href="about.html" class="nav-link active">About</a></li>
+        <li><a href="index.html#fleet" class="nav-link">Partners</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="cart-btn" aria-label="Open cart" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          <span class="cart-badge" aria-live="polite">0</span>
+        </button>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-nav" id="mobile-nav" role="dialog" aria-label="Mobile navigation" aria-modal="true">
+    <ul class="mobile-nav-links">
+      <li>
+        <a href="products.html" class="mobile-nav-link" data-sub-toggle="mobile-shop-sub-about" aria-expanded="false">Catalogue</a>
+        <div class="mobile-nav-sub" id="mobile-shop-sub-about" style="display:none">
+          <a href="products.html?cat=safety-equipment">Safety Equipment</a>
+          <a href="products.html?cat=communication">Communication Equipment</a>
+          <a href="products.html?cat=vehicles">Vehicles</a>
+          <a href="products.html?cat=apparel">Apparel &amp; Uniforms</a>
+          <a href="products.html?cat=delivery-bags">Delivery Bags &amp; Storage</a>
+          <a href="products.html?cat=mobile-tech">Mobile &amp; Tech Accessories</a>
+          <a href="products.html?cat=financial-security">Financial &amp; Security</a>
+          <a href="products.html?cat=security-tracking">Security &amp; Tracking</a>
+          <a href="products.html?cat=charging">Charging Solutions</a>
+          <a href="products.html?cat=delivery-boxes">Delivery Boxes</a>
+          <a href="products.html?cat=weather-protection">Weather Protection</a>
+          <a href="products.html?cat=protective-gear">Protective Gear</a>
+        </div>
+      </li>
+      <li><a href="about.html" class="mobile-nav-link active">About</a></li>
+      <li><a href="index.html#fleet" class="mobile-nav-link">Partners</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="cart-overlay" aria-hidden="true"></div>
+  <aside class="cart-drawer" role="dialog" aria-label="Shopping cart" aria-modal="true">
+    <div class="cart-header"><div><h2 class="cart-title">Your Cart</h2><span class="cart-count">(0 items)</span></div><button class="cart-close" aria-label="Close cart">✕</button></div>
+    <div class="cart-items" id="cart-items"><div class="cart-empty"><svg class="cart-empty-icon" viewBox="0 0 64 64" fill="none" stroke="currentColor" aria-hidden="true"><path d="M12 16h40l-4 24H16L12 16z" stroke-width="2"/><circle cx="22" cy="52" r="3" stroke-width="2"/><circle cx="42" cy="52" r="3" stroke-width="2"/></svg><p>Your cart is empty</p><a href="products.html" class="btn btn-outline-accent btn-sm">Shop Now</a></div></div>
+    <div class="cart-footer"><div class="cart-subtotal"><span>Subtotal</span><span class="cart-subtotal-amount">€0.00</span></div><div class="cart-total"><span>Total</span><span class="cart-total-amount">€0.00</span></div><button class="btn btn-primary btn-full btn-checkout" disabled>Checkout</button><p class="cart-shipping-note">Free shipping on orders over €50</p></div>
+  </aside>
+
+  <main id="main-content">
+
+    <!-- ══════════════════════════════════════════
+         PAGE HERO
+    ══════════════════════════════════════════ -->
+    <section class="page-hero" aria-label="About page header">
+      <div class="container page-hero-content">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-sep" aria-hidden="true">/</span>
+          <span aria-current="page">About</span>
+        </nav>
+        <h1 class="section-title">We Build for Those<br><span class="accent">Who Build Cities.</span></h1>
+        <p class="section-subtitle">Nuvio Gear was born from a simple frustration: courier equipment wasn't keeping up with couriers.</p>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         BRAND STORY
+    ══════════════════════════════════════════ -->
+    <section class="about-story" aria-label="Brand story">
+      <div class="container">
+        <div class="about-story-inner">
+
+          <div class="story-text">
+            <p class="section-label fade-in">Our Story</p>
+            <h2 class="section-title fade-in fade-in-delay-1" style="margin-bottom: var(--space-xl);">
+              Gear Born on<br>the Road
+            </h2>
+            <div class="fade-in fade-in-delay-2">
+              <p>Nuvio Gear was founded in 2020 by a team of three engineers and former Wolt couriers in Tallinn, Estonia. We spent two years riding the same routes, carrying the same gear, and suffering the same failures: thermal bags that lost temperature, backpacks that shredded after three months, safety vests that weren't visible enough.</p>
+              <p>So we built something better. Starting with one thermal bag prototype tested across seven cities, we iterated relentlessly until couriers told us it was the best piece of equipment they'd ever used. Today, Nuvio Gear equips over 100,000 couriers and 100+ partner companies across 18 EU countries.</p>
+              <p>We don't design for catalogues. We design for 8-hour shifts in the rain, for emergency stops on cobblestones, for sub-zero winters and 35°C summers. Every stitch, every buckle, every insulation layer is tested by working couriers in real conditions.</p>
+            </div>
+            <div class="fade-in fade-in-delay-3" style="margin-top: var(--space-xl); display: flex; gap: var(--space-xl); flex-wrap: wrap;">
+              <div>
+                <div class="promise-stat" style="font-family: var(--font-display); font-size: 40px; font-weight: 800; color: var(--color-accent);">100K+</div>
+                <div style="font-size:13px; color: var(--color-text-muted); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.08em;">Couriers equipped</div>
+              </div>
+              <div>
+                <div class="promise-stat" style="font-family: var(--font-display); font-size: 40px; font-weight: 800; color: var(--color-accent);">18</div>
+                <div style="font-size:13px; color: var(--color-text-muted); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.08em;">EU countries</div>
+              </div>
+              <div>
+                <div class="promise-stat" style="font-family: var(--font-display); font-size: 40px; font-weight: 800; color: var(--color-accent);">4yr</div>
+                <div style="font-size:13px; color: var(--color-text-muted); margin-top: 4px; text-transform: uppercase; letter-spacing: 0.08em;">In operation</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="story-image fade-in fade-in-delay-1">
+            <img src="assets/images/placeholder/about-story.svg" alt="Courier in city with Nuvio Gear equipment" loading="lazy" style="width:100%; height:100%; object-fit:cover;">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         VALUES SECTION
+    ══════════════════════════════════════════ -->
+    <section style="padding-block: var(--space-3xl); background: var(--color-bg-mid);" aria-label="Our values">
+      <div class="container">
+        <p class="section-label fade-in">Our Values</p>
+        <h2 class="section-title fade-in fade-in-delay-1" style="margin-bottom: var(--space-2xl);">What We Stand For</h2>
+        <div class="promise-grid">
+          <div class="promise-item fade-in">
+            <svg class="promise-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M24 4L6 12v16c0 9 7.5 17.4 18 20 10.5-2.6 18-11 18-20V12L24 4z"/>
+              <path d="M17 24l5 5 9-10" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+            </svg>
+            <div class="promise-stat" style="font-size:28px;">Durability First</div>
+            <div class="promise-label">Every product is field-tested for 6 months before launch. If it doesn't hold up, it doesn't ship.</div>
+          </div>
+          <div class="promise-item fade-in fade-in-delay-1">
+            <svg class="promise-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="24" cy="24" r="20"/>
+              <path d="M24 14v10l6 6" stroke-linecap="round" stroke-width="2.5"/>
+            </svg>
+            <div class="promise-stat" style="font-size:28px;">Courier-Led Design</div>
+            <div class="promise-label">Our advisory board includes 40 active couriers from 12 cities. They shape every product we make.</div>
+          </div>
+          <div class="promise-item fade-in fade-in-delay-2">
+            <svg class="promise-icon" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 20v22M24 10v32M36 14v28"/>
+              <circle cx="12" cy="16" r="4"/><circle cx="24" cy="6" r="4"/><circle cx="36" cy="10" r="4"/>
+            </svg>
+            <div class="promise-stat" style="font-size:28px;">Radical Transparency</div>
+            <div class="promise-label">We publish our material sourcing, manufacturing partners, and carbon footprint for every product line.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         TIMELINE
+    ══════════════════════════════════════════ -->
+    <section class="timeline-section" aria-label="Company timeline">
+      <div class="container">
+        <p class="section-label fade-in">Milestones</p>
+        <h2 class="section-title fade-in fade-in-delay-1">Our Journey</h2>
+
+        <div class="timeline">
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-year">2020</div>
+            <h3 class="timeline-title">Founded in Tallinn</h3>
+            <p class="timeline-text">Three couriers-turned-engineers meet at a hackathon and decide the courier equipment market needs to be disrupted. First prototype built in a garage.</p>
+          </div>
+
+          <div class="timeline-item fade-in fade-in-delay-1">
+            <div class="timeline-year">2021</div>
+            <h3 class="timeline-title">First Product Launch</h3>
+            <p class="timeline-text">NG-Thermo Pro 40L launches after 14 months of field testing. Sells out within 3 weeks. 500 units delivered to couriers in Tallinn, Helsinki, and Riga.</p>
+          </div>
+
+          <div class="timeline-item fade-in fade-in-delay-2">
+            <div class="timeline-year">2022</div>
+            <h3 class="timeline-title">Series A &amp; EU Expansion</h3>
+            <p class="timeline-text">€3.2M Series A round closes. Nuvio Gear expands to 12 EU countries. First fleet partnership with Wolt signed for 800 branded units.</p>
+          </div>
+
+          <div class="timeline-item fade-in fade-in-delay-3">
+            <div class="timeline-year">2023</div>
+            <h3 class="timeline-title">100,000 Couriers Equipped</h3>
+            <p class="timeline-text">Major milestone reached. Full catalogue of 42 products across 12 categories launched. B2B fleet program scaled to 100+ partner companies across Europe.</p>
+          </div>
+
+          <div class="timeline-item fade-in">
+            <div class="timeline-year">2024</div>
+            <h3 class="timeline-title">Lifetime Warranty Program</h3>
+            <p class="timeline-text">Industry-first lifetime warranty introduced across all core products. Custom manufacturing facility opens in Tallinn Industrial Park.</p>
+          </div>
+
+          <div class="timeline-item fade-in fade-in-delay-1">
+            <div class="timeline-year">2025</div>
+            <h3 class="timeline-title">18 Countries &amp; Growing</h3>
+            <p class="timeline-text">Nuvio Gear now ships to 18 EU countries with 48h delivery. New product lines in development for cargo bike and moped couriers.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA section -->
+    <section style="padding-block: var(--space-3xl); background: var(--color-bg-card); text-align:center;" aria-label="Call to action">
+      <div class="container">
+        <p class="section-label fade-in" style="justify-content:center;">Ready to Gear Up?</p>
+        <h2 class="section-title fade-in fade-in-delay-1" style="margin-bottom: var(--space-lg);">Join 100,000+ Couriers &amp; 100+ Companies</h2>
+        <p class="section-subtitle fade-in fade-in-delay-2" style="margin-inline: auto; text-align:center; max-width:480px;">Browse the full catalogue or contact us about fleet pricing and custom branding for your team.</p>
+        <div class="fade-in fade-in-delay-3" style="display:flex; gap: var(--space-md); justify-content:center; flex-wrap:wrap; margin-top: var(--space-xl);">
+          <a href="products.html" class="btn btn-primary">View Catalogue</a>
+          <a href="contact.html" class="btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo"><img src="assets/images/nuvio_white_transparent2.png" alt="Nuvio Gear" style="height: 80px; width: auto;"></a>
+          <p class="footer-tagline">Built for the Road. Engineered for Couriers.</p>
+          <div class="footer-social" aria-label="Social media links">
+            <a href="#" class="social-link" aria-label="Instagram" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+            <a href="#" class="social-link" aria-label="LinkedIn" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="#" class="social-link" aria-label="Facebook" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+          </div>
+        </div>
+        <div><h3 class="footer-col-title">Catalogue</h3><ul class="footer-links"><li><a href="products.html?cat=safety-equipment" class="footer-link">Safety Equipment</a></li><li><a href="products.html?cat=vehicles" class="footer-link">Vehicles</a></li><li><a href="products.html?cat=apparel" class="footer-link">Apparel &amp; Uniforms</a></li><li><a href="products.html?cat=delivery-bags" class="footer-link">Delivery Bags</a></li><li><a href="products.html" class="footer-link">Full Catalogue</a></li></ul></div>
+        <div><h3 class="footer-col-title">Company</h3><ul class="footer-links"><li><a href="about.html" class="footer-link">About Us</a></li><li><a href="index.html#fleet" class="footer-link">B2B / Fleet</a></li><li><a href="contact.html" class="footer-link">Contact</a></li></ul></div>
+        <div><h3 class="footer-col-title">Newsletter</h3><form class="newsletter-form" action="#" method="post"><input type="email" class="newsletter-input" placeholder="your@email.com" aria-label="Email for newsletter" required><button type="submit" class="btn btn-primary btn-sm" style="width:100%">Subscribe</button></form></div>
+      </div>
+      <hr class="divider">
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 Nuvio Gear. All rights reserved.</p>
+        <nav class="footer-legal"><a href="#">Privacy</a><a href="#">Terms</a></nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

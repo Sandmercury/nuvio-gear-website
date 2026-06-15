@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#1A1A1A"/>
+  <pattern id="g3" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="30" x2="30" y2="0" stroke="#C6FF00" stroke-width="0.4" opacity="0.12"/>
+  </pattern>
+  <rect width="400" height="300" fill="url(#g3)"/>
+  <!-- Icon -->
+  <g transform="translate(180,60) scale(1.5)" stroke="#C6FF00" fill="none"><path d="M14 6 L6 12 L10 14 L10 34 L30 34 L30 14 L34 12 L26 6 Q23 10 20 10 Q17 10 14 6Z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/><line x1="20" y1="10" x2="20" y2="34" stroke="currentColor" stroke-width="1.5" opacity="0.5"/></g>
+  <!-- Labels -->
+  <text x="200" y="195" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="3">APPAREL & UNIFORMS</text>
+  <text x="200" y="220" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#888888">Jackets, shirts & pants</text>
+  <!-- Corner accents -->
+  <polygon points="0,0 50,0 0,50" fill="#C6FF00" opacity="0.08"/>
+  <polygon points="400,300 350,300 400,250" fill="#C6FF00" opacity="0.08"/>
+</svg>

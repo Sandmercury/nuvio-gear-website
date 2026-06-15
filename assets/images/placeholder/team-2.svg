@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#1A1A1A"/>
+  <circle cx="200" cy="155" r="70" fill="none" stroke="#C6FF00" stroke-width="2" opacity="0.4"/>
+  <circle cx="200" cy="155" r="54" fill="#111111"/>
+  <text x="200" y="172" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="52" font-weight="800" fill="#C6FF00">S</text>
+  <path d="M80 350 Q80 270 200 270 Q320 270 320 350" fill="none" stroke="#C6FF00" stroke-width="2" opacity="0.4"/>
+</svg>

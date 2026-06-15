@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <rect width="400" height="500" fill="#111111"/>
+  <pattern id="cross" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+    <line x1="16" y1="0" x2="16" y2="32" stroke="#C6FF00" stroke-width="0.4" opacity="0.15"/>
+    <line x1="0" y1="16" x2="32" y2="16" stroke="#C6FF00" stroke-width="0.4" opacity="0.15"/>
+  </pattern>
+  <rect width="400" height="500" fill="url(#cross)"/>
+  <!-- Phone mount icon -->
+  <rect x="180" y="145" width="40" height="70" rx="6" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <circle cx="200" cy="200" r="6" fill="#C6FF00" opacity="0.6"/>
+  <!-- Mount arm -->
+  <line x1="200" y1="215" x2="200" y2="240" stroke="#C6FF00" stroke-width="3"/>
+  <rect x="170" y="238" width="60" height="14" rx="4" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <!-- Lock icon -->
+  <rect x="145" y="268" width="36" height="30" rx="4" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <path d="M152 268 L152 260 Q152 248 163 248 Q174 248 174 260 L174 268" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <circle cx="163" cy="283" r="4" fill="#C6FF00"/>
+  <!-- Rain cover icon -->
+  <path d="M225 268 Q245 248 265 268 L265 295 Q245 305 225 295 Z" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <line x1="233" y1="305" x2="233" y2="315" stroke="#C6FF00" stroke-width="2"/>
+  <line x1="245" y1="305" x2="245" y2="318" stroke="#C6FF00" stroke-width="2"/>
+  <line x1="257" y1="305" x2="257" y2="315" stroke="#C6FF00" stroke-width="2"/>
+  <!-- Label -->
+  <text x="200" y="375" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="4">ACCESSORIES</text>
+  <text x="200" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#AAAAAA">Mounts, locks &amp; covers</text>
+  <polygon points="400,0 320,0 400,80" fill="#C6FF00" opacity="0.1"/>
+  <polygon points="0,500 80,500 0,420" fill="#C6FF00" opacity="0.1"/>
+</svg>

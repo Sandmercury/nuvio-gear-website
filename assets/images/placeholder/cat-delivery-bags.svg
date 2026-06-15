@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#1A1A1A"/>
+  <pattern id="g4" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="30" x2="30" y2="0" stroke="#C6FF00" stroke-width="0.4" opacity="0.12"/>
+  </pattern>
+  <rect width="400" height="300" fill="url(#g4)"/>
+  <!-- Icon -->
+  <g transform="translate(180,60) scale(1.5)" stroke="#C6FF00" fill="none"><rect x="8" y="12" width="24" height="22" rx="4" stroke="currentColor" stroke-width="2" fill="none"/><path d="M13 12 L13 8 Q13 5 20 5 Q27 5 27 8 L27 12" stroke="currentColor" stroke-width="2" fill="none"/><line x1="8" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="1.5"/><circle cx="20" cy="26" r="3" stroke="currentColor" stroke-width="1.5" fill="none"/></g>
+  <!-- Labels -->
+  <text x="200" y="195" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="3">DELIVERY BAGS & STORAGE</text>
+  <text x="200" y="220" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#888888">Hard bags, pizza & grocery</text>
+  <!-- Corner accents -->
+  <polygon points="0,0 50,0 0,50" fill="#C6FF00" opacity="0.08"/>
+  <polygon points="400,300 350,300 400,250" fill="#C6FF00" opacity="0.08"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#111111"/>
+  <pattern id="p3" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="12" cy="12" r="1" fill="#C6FF00" opacity="0.18"/>
+  </pattern>
+  <rect width="400" height="400" fill="url(#p3)"/>
+  <path d="M200 90 L270 120 L265 270 L135 270 L130 120 Z" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <path d="M200 90 L200 270" stroke="#C6FF00" stroke-width="1.5" opacity="0.3"/>
+  <line x1="140" y1="180" x2="260" y2="180" stroke="#C6FF00" stroke-width="5" opacity="0.9"/>
+  <line x1="140" y1="205" x2="260" y2="205" stroke="#C6FF00" stroke-width="5" opacity="0.9"/>
+  <path d="M200 90 L160 120 L130 110" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <path d="M200 90 L240 120 L270 110" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <text x="200" y="318" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" letter-spacing="2">NG-REFLECT VEST</text>
+  <text x="200" y="338" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="20" font-weight="800" fill="#C6FF00">€45</text>
+</svg>

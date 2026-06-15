@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nuvio Gear — Premium courier equipment for professionals who deliver. 42 products across 12 categories: safety equipment, vehicles, apparel, delivery bags &amp; more.">
+  <meta name="theme-color" content="#111111">
+  <title>Nuvio Gear — Built for the Road. Engineered for Couriers.</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Nuvio Gear — Built for the Road">
+  <meta property="og:description" content="Premium courier equipment for gig-economy professionals.">
+  <meta property="og:type" content="website">
+
+  <!-- Preload critical fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════
+       ANNOUNCEMENT BAR
+  ══════════════════════════════════════════ -->
+  <div class="announcement-bar" role="banner" id="announce-bar">
+    <p class="announcement-bar__text">
+      FREE SHIPPING ON ORDERS OVER €10,000 &nbsp;|&nbsp; B2B Fleet Discounts Available
+    </p>
+    <button class="announcement-bar__close" aria-label="Dismiss announcement">✕</button>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════════ -->
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+
+      <!-- Logo -->
+      <a href="index.html" class="nav-logo" aria-label="Nuvio Gear Home">
+        <img src="assets/images/nuvio_white_transparent2.png" alt="Nuvio Gear" style="height: 80px; width: auto;">
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="nav-links" role="list">
+        <li class="nav-item">
+          <a href="products.html" class="nav-link" aria-haspopup="true">Catalogue</a>
+          <!-- Mega Dropdown -->
+          <div class="mega-dropdown" role="region" aria-label="Catalogue categories">
+            <a href="products.html?cat=safety-equipment" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M20 4L6 10v10c0 7 5.8 13.5 14 15.5 8.2-2 14-8.5 14-15.5V10L20 4z" stroke="currentColor" stroke-width="2"/>
+                <path d="M14 20l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Safety Equipment</div>
+                <div class="mega-dropdown-desc">Helmets, vests &amp; first aid</div>
+              </div>
+            </a>
+            <a href="products.html?cat=communication" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="20" cy="14" r="6" stroke="currentColor" stroke-width="2"/>
+                <rect x="9" y="13" width="4" height="6" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="27" y="13" width="4" height="6" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M12 14 Q12 8 20 8 Q28 8 28 14" stroke="currentColor" stroke-width="1.5" fill="none"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Communication</div>
+                <div class="mega-dropdown-desc">Intercoms &amp; headsets</div>
+              </div>
+            </a>
+            <a href="products.html?cat=vehicles" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="10" cy="28" r="5" stroke="currentColor" stroke-width="2"/>
+                <circle cx="30" cy="28" r="5" stroke="currentColor" stroke-width="2"/>
+                <path d="M10 28 L18 14 L24 14 L30 28" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <line x1="18" y1="14" x2="10" y2="22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M20 10 L24 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Vehicles</div>
+                <div class="mega-dropdown-desc">E-bikes, scooters &amp; cargo</div>
+              </div>
+            </a>
+            <a href="products.html?cat=apparel" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M14 6 L6 12 L10 14 L10 34 L30 34 L30 14 L34 12 L26 6 Q23 10 20 10 Q17 10 14 6Z" stroke="currentColor" stroke-width="2" fill="none" stroke-linejoin="round"/>
+                <line x1="20" y1="10" x2="20" y2="34" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Apparel &amp; Uniforms</div>
+                <div class="mega-dropdown-desc">Jackets, shirts &amp; pants</div>
+              </div>
+            </a>
+            <a href="products.html?cat=delivery-bags" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="8" y="12" width="24" height="22" rx="4" stroke="currentColor" stroke-width="2"/>
+                <path d="M13 12 L13 8 Q13 5 20 5 Q27 5 27 8 L27 12" stroke="currentColor" stroke-width="2" fill="none"/>
+                <line x1="8" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Delivery Bags &amp; Storage</div>
+                <div class="mega-dropdown-desc">Hard bags, pizza &amp; grocery</div>
+              </div>
+            </a>
+            <a href="products.html?cat=mobile-tech" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="13" y="5" width="14" height="24" rx="3" stroke="currentColor" stroke-width="2"/>
+                <circle cx="20" cy="25" r="2" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="16" y1="9" x2="24" y2="9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M26 18 L32 14 M26 22 L34 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Mobile &amp; Tech</div>
+                <div class="mega-dropdown-desc">Holders, cameras &amp; cases</div>
+              </div>
+            </a>
+            <a href="products.html?cat=financial-security" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="6" y="12" width="28" height="20" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M12 12 L12 9 Q12 6 20 6 Q28 6 28 9 L28 12" stroke="currentColor" stroke-width="2" fill="none"/>
+                <circle cx="20" cy="22" r="4" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Financial &amp; Security</div>
+                <div class="mega-dropdown-desc">Cash bags &amp; wrist bags</div>
+              </div>
+            </a>
+            <a href="products.html?cat=security-tracking" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="12" y="18" width="16" height="14" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M15 18 L15 13 Q15 7 20 7 Q25 7 25 13 L25 18" stroke="currentColor" stroke-width="2" fill="none"/>
+                <circle cx="20" cy="25" r="3" fill="currentColor" opacity="0.7"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Security &amp; Tracking</div>
+                <div class="mega-dropdown-desc">Smart locks &amp; GPS</div>
+              </div>
+            </a>
+            <a href="products.html?cat=charging" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="10" y="8" width="20" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+                <path d="M15 5 L15 8 M25 5 L25 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <path d="M22 18 L18 24 L22 24 L18 30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Charging Solutions</div>
+                <div class="mega-dropdown-desc">Fast chargers &amp; power banks</div>
+              </div>
+            </a>
+            <a href="products.html?cat=delivery-boxes" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="6" y="14" width="28" height="20" rx="2" stroke="currentColor" stroke-width="2"/>
+                <polyline points="6,20 20,8 34,20" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                <line x1="14" y1="34" x2="14" y2="22" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="26" y1="34" x2="26" y2="22" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="14" y1="22" x2="26" y2="22" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Delivery Boxes</div>
+                <div class="mega-dropdown-desc">Hard case &amp; rear rack boxes</div>
+              </div>
+            </a>
+            <a href="products.html?cat=weather-protection" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M10 20 Q20 6 30 20 L30 32 Q20 36 10 32 Z" stroke="currentColor" stroke-width="2" fill="none"/>
+                <line x1="14" y1="38" x2="14" y2="32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="20" y1="38" x2="20" y2="32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                <line x1="26" y1="38" x2="26" y2="32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Weather Protection</div>
+                <div class="mega-dropdown-desc">Raincoats &amp; waterproofs</div>
+              </div>
+            </a>
+            <a href="products.html?cat=protective-gear" class="mega-dropdown-item">
+              <svg class="mega-dropdown-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <ellipse cx="15" cy="22" rx="6" ry="10" stroke="currentColor" stroke-width="2"/>
+                <line x1="10" y1="18" x2="20" y2="18" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="10" y1="26" x2="20" y2="26" stroke="currentColor" stroke-width="1.5"/>
+                <ellipse cx="28" cy="18" rx="5" ry="8" stroke="currentColor" stroke-width="2"/>
+                <line x1="24" y1="15" x2="32" y2="15" stroke="currentColor" stroke-width="1.5"/>
+                <line x1="24" y1="21" x2="32" y2="21" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+              <div>
+                <div class="mega-dropdown-label">Protective Gear</div>
+                <div class="mega-dropdown-desc">Knee &amp; elbow guards</div>
+              </div>
+            </a>
+          </div>
+        </li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="#fleet" class="nav-link">Partners</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Actions -->
+      <div class="nav-actions">
+        <button class="cart-btn" aria-label="Open cart" aria-expanded="false">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 01-8 0"/>
+          </svg>
+          <span class="cart-badge" aria-live="polite" aria-atomic="true">0</span>
+        </button>
+
+        <!-- Hamburger (mobile) -->
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile navigation overlay -->
+  <div class="mobile-nav" id="mobile-nav" role="dialog" aria-label="Mobile navigation" aria-modal="true">
+    <ul class="mobile-nav-links" role="list">
+      <li>
+        <a href="products.html" class="mobile-nav-link" data-sub-toggle="mobile-shop-sub" aria-expanded="false">
+          Catalogue
+        </a>
+        <div class="mobile-nav-sub" id="mobile-shop-sub" style="display:none">
+          <a href="products.html?cat=safety-equipment">Safety Equipment</a>
+          <a href="products.html?cat=communication">Communication Equipment</a>
+          <a href="products.html?cat=vehicles">Vehicles</a>
+          <a href="products.html?cat=apparel">Apparel &amp; Uniforms</a>
+          <a href="products.html?cat=delivery-bags">Delivery Bags &amp; Storage</a>
+          <a href="products.html?cat=mobile-tech">Mobile &amp; Tech Accessories</a>
+          <a href="products.html?cat=financial-security">Financial &amp; Security</a>
+          <a href="products.html?cat=security-tracking">Security &amp; Tracking</a>
+          <a href="products.html?cat=charging">Charging Solutions</a>
+          <a href="products.html?cat=delivery-boxes">Delivery Boxes</a>
+          <a href="products.html?cat=weather-protection">Weather Protection</a>
+          <a href="products.html?cat=protective-gear">Protective Gear</a>
+        </div>
+      </li>
+      <li><a href="about.html" class="mobile-nav-link">About</a></li>
+      <li><a href="#fleet" class="mobile-nav-link">Partners</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       CART DRAWER
+  ══════════════════════════════════════════ -->
+  <div class="cart-overlay" aria-hidden="true" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" role="dialog" aria-label="Shopping cart" aria-modal="true">
+    <div class="cart-header">
+      <div>
+        <h2 class="cart-title">Your Cart</h2>
+        <span class="cart-count">(0 items)</span>
+      </div>
+      <button class="cart-close" aria-label="Close cart">✕</button>
+    </div>
+
+    <div class="cart-items" id="cart-items">
+      <div class="cart-empty">
+        <svg class="cart-empty-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M12 16h40l-4 24H16L12 16z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="22" cy="52" r="3" stroke="currentColor" stroke-width="2"/>
+          <circle cx="42" cy="52" r="3" stroke="currentColor" stroke-width="2"/>
+          <path d="M8 8h4l4 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <p>Your cart is empty</p>
+        <a href="products.html" class="btn btn-outline-accent btn-sm">Shop Now</a>
+      </div>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-subtotal">
+        <span>Subtotal</span>
+        <span class="cart-subtotal-amount">€0.00</span>
+      </div>
+      <div class="cart-total">
+        <span>Total</span>
+        <span class="cart-total-amount">€0.00</span>
+      </div>
+      <button class="btn btn-primary btn-full btn-checkout" disabled>Checkout</button>
+      <p class="cart-shipping-note">Free shipping on orders over €50 across the EU</p>
+    </div>
+  </aside>
+
+  <main id="main-content">
+
+    <!-- ══════════════════════════════════════════
+         HERO SECTION
+    ══════════════════════════════════════════ -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <p class="hero-eyebrow fade-in">Premium Courier Equipment</p>
+
+        <h1 class="hero-title fade-in fade-in-delay-1">
+          Built For<br>
+          <span class="line-accent">The Road.</span>
+        </h1>
+
+        <p class="hero-sub fade-in fade-in-delay-2">
+          Premium courier equipment for professionals who deliver. Engineered for the demands of modern gig-economy couriers.
+        </p>
+
+        <div class="hero-ctas fade-in fade-in-delay-3">
+          <a href="products.html" class="btn btn-primary">Shop Now</a>
+          <a href="#categories" class="btn btn-outline">View Collections</a>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="hero-scroll" aria-label="Scroll down">
+        <svg class="scroll-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M12 5v14M5 12l7 7 7-7"/>
+        </svg>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         FEATURED CATEGORIES GRID
+    ══════════════════════════════════════════ -->
+    <section class="categories" id="categories" aria-label="Product categories">
+      <div class="container">
+        <div class="categories-header fade-in">
+          <div>
+            <p class="section-label">Collections</p>
+            <h2 class="section-title">Shop by Category</h2>
+          </div>
+          <a href="products.html" class="view-all">
+            All Products
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <path d="M3 8h10M9 4l4 4-4 4"/>
+            </svg>
+          </a>
+        </div>
+
+        <div class="categories-grid">
+          <a href="products.html?cat=safety-equipment" class="category-card fade-in" aria-label="Browse Safety Equipment">
+            <img src="assets/images/products/Helmet.png" alt="Helmets, vests and first aid kits" loading="lazy" class="category-card-img" style="object-fit:cover;width:100%;min-height:400px;" onerror="var d=document.createElement('div');d.style.cssText='background:#111111;width:100%;min-height:400px;display:flex;align-items:center;justify-content:center;';d.innerHTML='<span style=&quot;color:#C6FF00;font-weight:700;font-size:1.1rem;&quot;>Safety Equipment</span>';this.parentNode.replaceChild(d,this)">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <div class="category-card-name">Safety Equipment</div>
+              <div class="category-card-count">7 products</div>
+            </div>
+          </a>
+
+          <a href="products.html?cat=vehicles" class="category-card fade-in fade-in-delay-1" aria-label="Browse Vehicles">
+            <img src="assets/images/products/E-Bike.png" alt="E-bikes, electric scooters and cargo bicycles" loading="lazy" class="category-card-img" style="object-fit:cover;width:100%;min-height:400px;" onerror="var d=document.createElement('div');d.style.cssText='background:#111111;width:100%;min-height:400px;display:flex;align-items:center;justify-content:center;';d.innerHTML='<span style=&quot;color:#C6FF00;font-weight:700;font-size:1.1rem;&quot;>Vehicles</span>';this.parentNode.replaceChild(d,this)">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <div class="category-card-name">Vehicles</div>
+              <div class="category-card-count">6 products</div>
+            </div>
+          </a>
+
+          <a href="products.html?cat=apparel" class="category-card fade-in" aria-label="Browse Apparel & Uniforms">
+            <img src="assets/images/products/Hoodie.png" alt="Courier jackets, shirts and pants" loading="lazy" class="category-card-img" style="object-fit:cover;width:100%;min-height:400px;" onerror="var d=document.createElement('div');d.style.cssText='background:#111111;width:100%;min-height:400px;display:flex;align-items:center;justify-content:center;';d.innerHTML='<span style=&quot;color:#C6FF00;font-weight:700;font-size:1.1rem;&quot;>Apparel &amp; Uniforms</span>';this.parentNode.replaceChild(d,this)">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <div class="category-card-name">Apparel &amp; Uniforms</div>
+              <div class="category-card-count">8 products</div>
+            </div>
+          </a>
+
+          <a href="products.html?cat=delivery-bags" class="category-card fade-in fade-in-delay-1" aria-label="Browse Delivery Bags & Storage">
+            <img src="assets/images/products/Hard Bag.png" alt="Hard bags, pizza bags and grocery bags" loading="lazy" class="category-card-img" style="object-fit:cover;width:100%;min-height:400px;" onerror="var d=document.createElement('div');d.style.cssText='background:#111111;width:100%;min-height:400px;display:flex;align-items:center;justify-content:center;';d.innerHTML='<span style=&quot;color:#C6FF00;font-weight:700;font-size:1.1rem;&quot;>Delivery Bags &amp; Storage</span>';this.parentNode.replaceChild(d,this)">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <div class="category-card-name">Delivery Bags &amp; Storage</div>
+              <div class="category-card-count">8 products</div>
+            </div>
+          </a>
+
+          <a href="products.html?cat=mobile-tech" class="category-card fade-in fade-in-delay-2" aria-label="Browse Mobile & Tech Accessories">
+            <img src="assets/images/products/Phone Holder.png" alt="Phone holders, power banks and dash cameras" loading="lazy" class="category-card-img" style="object-fit:cover;width:100%;min-height:400px;" onerror="var d=document.createElement('div');d.style.cssText='background:#111111;width:100%;min-height:400px;display:flex;align-items:center;justify-content:center;';d.innerHTML='<span style=&quot;color:#C6FF00;font-weight:700;font-size:1.1rem;&quot;>Mobile &amp; Tech</span>';this.parentNode.replaceChild(d,this)">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <div class="category-card-name">Mobile &amp; Tech</div>
+              <div class="category-card-count">4 products</div>
+            </div>
+          </a>
+
+          <a href="products.html?cat=financial-security" class="category-card fade-in" aria-label="Browse Financial & Security Accessories">
+            <img src="assets/images/products/Cash Bag - Bag wrist.png" alt="Cash bags and wrist bags" loading="lazy" class="category-card-img" style="object-fit:cover;width:100%;min-height:400px;" onerror="var d=document.createElement('div');d.style.cssText='background:#111111;width:100%;min-height:400px;display:flex;align-items:center;justify-content:center;';d.innerHTML='<span style=&quot;color:#C6FF00;font-weight:700;font-size:1.1rem;&quot;>Financial &amp; Security</span>';this.parentNode.replaceChild(d,this)">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <div class="category-card-name">Financial &amp; Security</div>
+              <div class="category-card-count">1 product</div>
+            </div>
+          </a>
+
+          <a href="products.html?cat=security-tracking" class="category-card fade-in fade-in-delay-1" aria-label="Browse Security & Tracking">
+            <img src="assets/images/products/Smart Lock.png" alt="Smart locks and GPS tracking" loading="lazy" class="category-card-img" style="object-fit:cover;width:100%;min-height:400px;" onerror="var d=document.createElement('div');d.style.cssText='background:#111111;width:100%;min-height:400px;display:flex;align-items:center;justify-content:center;';d.innerHTML='<span style=&quot;color:#C6FF00;font-weight:700;font-size:1.1rem;&quot;>Security &amp; Tracking</span>';this.parentNode.replaceChild(d,this)">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <div class="category-card-name">Security &amp; Tracking</div>
+              <div class="category-card-count">1 product</div>
+            </div>
+          </a>
+
+          <a href="products.html?cat=delivery-boxes" class="category-card fade-in" aria-label="Browse Delivery Boxes">
+            <img src="assets/images/products/Hard Case Delivery Box.png" alt="Hard case and rear rack delivery boxes" loading="lazy" class="category-card-img" style="object-fit:cover;width:100%;min-height:400px;" onerror="var d=document.createElement('div');d.style.cssText='background:#111111;width:100%;min-height:400px;display:flex;align-items:center;justify-content:center;';d.innerHTML='<span style=&quot;color:#C6FF00;font-weight:700;font-size:1.1rem;&quot;>Delivery Boxes</span>';this.parentNode.replaceChild(d,this)">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <div class="category-card-name">Delivery Boxes</div>
+              <div class="category-card-count">2 products</div>
+            </div>
+          </a>
+
+          <a href="products.html?cat=weather-protection" class="category-card fade-in fade-in-delay-1" aria-label="Browse Weather Protection">
+            <img src="assets/images/products/Raincoat.png" alt="Raincoats and waterproof gear" loading="lazy" class="category-card-img" style="object-fit:cover;width:100%;min-height:400px;" onerror="var d=document.createElement('div');d.style.cssText='background:#111111;width:100%;min-height:400px;display:flex;align-items:center;justify-content:center;';d.innerHTML='<span style=&quot;color:#C6FF00;font-weight:700;font-size:1.1rem;&quot;>Weather Protection</span>';this.parentNode.replaceChild(d,this)">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <div class="category-card-name">Weather Protection</div>
+              <div class="category-card-count">1 product</div>
+            </div>
+          </a>
+
+          <a href="products.html?cat=protective-gear" class="category-card fade-in fade-in-delay-2" aria-label="Browse Protective Gear">
+            <img src="assets/images/products/Knee Guards.png" alt="Knee guards and elbow guards" loading="lazy" class="category-card-img" style="object-fit:cover;width:100%;min-height:400px;" onerror="var d=document.createElement('div');d.style.cssText='background:#111111;width:100%;min-height:400px;display:flex;align-items:center;justify-content:center;';d.innerHTML='<span style=&quot;color:#C6FF00;font-weight:700;font-size:1.1rem;&quot;>Protective Gear</span>';this.parentNode.replaceChild(d,this)">
+            <div class="category-card-overlay"></div>
+            <div class="category-card-info">
+              <div class="category-card-name">Protective Gear</div>
+              <div class="category-card-count">2 products</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         BESTSELLERS SECTION
+    ══════════════════════════════════════════ -->
+    <section class="bestsellers" aria-label="Bestselling products">
+      <div class="container">
+        <div class="bestsellers-header">
+          <p class="section-label fade-in">Featured Products</p>
+          <h2 class="section-title fade-in fade-in-delay-1">Equipment Built for Scale</h2>
+          <p class="section-subtitle fade-in fade-in-delay-2">Trusted by 100,000+ couriers and 100+ partner companies across Europe.</p>
+        </div>
+
+        <div class="product-scroll" role="list">
+
+          <!-- Helmet -->
+          <article class="product-card fade-in" role="listitem" data-category="safety-equipment">
+            <div class="product-card-image">
+              <img src="assets/images/products/Helmet.png" alt="Courier helmet — Safety Equipment" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder/cat-safety-equipment.svg'">
+              <span class="product-badge badge-bestseller">Popular</span>
+              <div class="product-card-quick">
+                <a href="contact.html" class="btn btn-primary btn-full">Request Quote</a>
+              </div>
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-name">Helmet</h3>
+              <p class="product-card-desc">CE-certified courier helmet for year-round protection</p>
+              <div class="product-card-footer">
+                <span class="product-cat-tag">Safety Equipment</span>
+                <a href="contact.html" class="btn btn-cart" aria-label="Request quote for Helmet">Quote</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- E-Bike -->
+          <article class="product-card fade-in fade-in-delay-1" role="listitem" data-category="vehicles">
+            <div class="product-card-image">
+              <img src="assets/images/products/E-Bike.png" alt="E-Bike — Vehicles" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder/cat-vehicles.svg'">
+              <div class="product-card-quick">
+                <a href="contact.html" class="btn btn-primary btn-full">Request Quote</a>
+              </div>
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-name">E-Bike</h3>
+              <p class="product-card-desc">High-range electric bike built for urban deliveries</p>
+              <div class="product-card-footer">
+                <span class="product-cat-tag">Vehicles</span>
+                <a href="contact.html" class="btn btn-cart" aria-label="Request quote for E-Bike">Quote</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Hard Bag -->
+          <article class="product-card fade-in fade-in-delay-2" role="listitem" data-category="delivery-bags">
+            <div class="product-card-image">
+              <img src="assets/images/products/Hard Bag.png" alt="Hard Bag — Delivery Bags & Storage" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder/cat-delivery-bags.svg'">
+              <span class="product-badge badge-new">New</span>
+              <div class="product-card-quick">
+                <a href="contact.html" class="btn btn-primary btn-full">Request Quote</a>
+              </div>
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-name">Hard Bag</h3>
+              <p class="product-card-desc">Rigid thermal delivery box with secure top-latch closure</p>
+              <div class="product-card-footer">
+                <span class="product-cat-tag">Delivery Bags</span>
+                <a href="contact.html" class="btn btn-cart" aria-label="Request quote for Hard Bag">Quote</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Hoodie -->
+          <article class="product-card fade-in fade-in-delay-3" role="listitem" data-category="apparel">
+            <div class="product-card-image">
+              <img src="assets/images/products/Hoodie.png" alt="Hoodie — Apparel & Uniforms" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder/cat-apparel.svg'">
+              <div class="product-card-quick">
+                <a href="contact.html" class="btn btn-primary btn-full">Request Quote</a>
+              </div>
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-name">Hoodie</h3>
+              <p class="product-card-desc">Branded courier hoodie — customisable with fleet logo</p>
+              <div class="product-card-footer">
+                <span class="product-cat-tag">Apparel</span>
+                <a href="contact.html" class="btn btn-cart" aria-label="Request quote for Hoodie">Quote</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Phone Holder -->
+          <article class="product-card fade-in" role="listitem" data-category="mobile-tech">
+            <div class="product-card-image">
+              <img src="assets/images/products/Phone Holder.png" alt="Phone Holder — Mobile & Tech" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder/cat-mobile-tech.svg'">
+              <div class="product-card-quick">
+                <a href="contact.html" class="btn btn-primary btn-full">Request Quote</a>
+              </div>
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-name">Phone Holder</h3>
+              <p class="product-card-desc">Universal handlebar mount with vibration dampening</p>
+              <div class="product-card-footer">
+                <span class="product-cat-tag">Mobile &amp; Tech</span>
+                <a href="contact.html" class="btn btn-cart" aria-label="Request quote for Phone Holder">Quote</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Smart Lock -->
+          <article class="product-card fade-in fade-in-delay-1" role="listitem" data-category="security-tracking">
+            <div class="product-card-image">
+              <img src="assets/images/products/Smart Lock.png" alt="Smart Lock — Security & Tracking" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder/cat-security-tracking.svg'">
+              <div class="product-card-quick">
+                <a href="contact.html" class="btn btn-primary btn-full">Request Quote</a>
+              </div>
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-name">Smart Lock</h3>
+              <p class="product-card-desc">App-controlled lock with real-time location tracking</p>
+              <div class="product-card-footer">
+                <span class="product-cat-tag">Security &amp; Tracking</span>
+                <a href="contact.html" class="btn btn-cart" aria-label="Request quote for Smart Lock">Quote</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Fast Charger -->
+          <article class="product-card fade-in fade-in-delay-2" role="listitem" data-category="charging">
+            <div class="product-card-image">
+              <img src="assets/images/products/Fast Charger.png" alt="Fast Charger — Charging Solutions" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder/cat-charging.svg'">
+              <div class="product-card-quick">
+                <a href="contact.html" class="btn btn-primary btn-full">Request Quote</a>
+              </div>
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-name">Fast Charger</h3>
+              <p class="product-card-desc">Multi-port rapid charger optimised for e-bike batteries</p>
+              <div class="product-card-footer">
+                <span class="product-cat-tag">Charging</span>
+                <a href="contact.html" class="btn btn-cart" aria-label="Request quote for Fast Charger">Quote</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Knee Guards -->
+          <article class="product-card fade-in fade-in-delay-3" role="listitem" data-category="protective-gear">
+            <div class="product-card-image">
+              <img src="assets/images/products/Knee Guards.png" alt="Knee Guards — Protective Gear" loading="lazy" onerror="this.onerror=null;this.src='assets/images/placeholder/cat-protective-gear.svg'">
+              <div class="product-card-quick">
+                <a href="contact.html" class="btn btn-primary btn-full">Request Quote</a>
+              </div>
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-name">Knee Guards</h3>
+              <p class="product-card-desc">Impact-absorbing knee protection for high-mileage riders</p>
+              <div class="product-card-footer">
+                <span class="product-cat-tag">Protective Gear</span>
+                <a href="contact.html" class="btn btn-cart" aria-label="Request quote for Knee Guards">Quote</a>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /product-scroll -->
+
+        <div style="text-align:center; margin-top: var(--space-2xl);" class="fade-in">
+          <a href="products.html" class="btn btn-outline-accent">View Full Catalogue</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         BRAND PROMISE
+    ══════════════════════════════════════════ -->
+    <section class="brand-promise" aria-label="Brand promise and stats">
+      <div class="container">
+        <div class="promise-grid">
+
+          <div class="promise-item fade-in">
+            <svg class="promise-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 24l6 6 10-12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="promise-stat">
+              <span data-counter="100000">0</span>+
+            </div>
+            <div class="promise-label">Couriers Equipped</div>
+          </div>
+
+          <div class="promise-item fade-in fade-in-delay-1">
+            <svg class="promise-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="6" y="8" width="36" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M16 8V4M32 8V4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M14 24h8M14 30h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            <div class="promise-stat">100+</div>
+            <div class="promise-label">Partner Companies</div>
+          </div>
+
+          <div class="promise-item fade-in fade-in-delay-2">
+            <svg class="promise-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
+              <path d="M24 14v10l6 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="promise-stat">1–3 Month</div>
+            <div class="promise-label">Lead Time for Bulk Orders</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         B2B / FLEET SECTION
+    ══════════════════════════════════════════ -->
+    <section class="fleet-section" id="fleet" aria-label="Fleet and B2B partnerships">
+      <div class="container">
+        <div class="fleet-inner">
+
+          <!-- Left: content -->
+          <div class="fleet-content">
+            <p class="section-label fade-in">B2B &amp; Fleet</p>
+            <h2 class="section-title fade-in fade-in-delay-1">Equip Your Fleet</h2>
+            <p class="section-subtitle fade-in fade-in-delay-2">
+              Volume pricing for delivery companies, dark kitchens, and fleet operators. We outfit entire courier fleets with branded, durable equipment.
+            </p>
+
+            <ul class="fleet-features fade-in fade-in-delay-2">
+              <li class="fleet-feature">
+                <svg class="fleet-feature-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                Volume discounts from 10+ units
+              </li>
+              <li class="fleet-feature">
+                <svg class="fleet-feature-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                Custom logo embroidery &amp; branding
+              </li>
+              <li class="fleet-feature">
+                <svg class="fleet-feature-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                Dedicated account manager
+              </li>
+              <li class="fleet-feature">
+                <svg class="fleet-feature-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                Priority 24h EU-wide dispatch
+              </li>
+              <li class="fleet-feature">
+                <svg class="fleet-feature-icon" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                Invoicing &amp; NET-30 payment terms
+              </li>
+            </ul>
+
+            <p class="fleet-partner-trust fade-in fade-in-delay-3">
+              Trusted by 100+ partner companies across Europe
+            </p>
+          </div>
+
+          <!-- Right: fleet quote form -->
+          <div class="fleet-form-wrap fade-in fade-in-delay-1">
+            <h3 class="fleet-form-title">Get a Fleet Quote</h3>
+            <form data-fleet-form action="#" method="post" novalidate>
+              <div class="form-stack">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label class="form-label" for="fleet-company">Company Name *</label>
+                    <input class="form-control" type="text" id="fleet-company" name="company" placeholder="Delivery Co. Ltd" required>
+                    <span class="form-error" role="alert"></span>
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="fleet-size">Fleet Size *</label>
+                    <select class="form-control" id="fleet-size" name="fleet_size" required>
+                      <option value="">Select size…</option>
+                      <option value="10-24">10–24 couriers</option>
+                      <option value="25-49">25–49 couriers</option>
+                      <option value="50-99">50–99 couriers</option>
+                      <option value="100+">100+ couriers</option>
+                    </select>
+                    <span class="form-error" role="alert"></span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="fleet-email">Work Email *</label>
+                  <input class="form-control" type="email" id="fleet-email" name="email" placeholder="you@company.com" required>
+                  <span class="form-error" role="alert"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="fleet-message">What do you need?</label>
+                  <textarea class="form-control" id="fleet-message" name="message" rows="3" placeholder="Tell us about your equipment needs…"></textarea>
+                </div>
+                <div class="form-success-msg" role="status">
+                  ✓ Quote request sent! We'll be in touch within 24 hours.
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Get Fleet Quote</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════
+         TESTIMONIALS
+    ══════════════════════════════════════════ -->
+    <section class="testimonials" aria-label="Customer testimonials">
+      <div class="container">
+        <div class="testimonials-header">
+          <p class="section-label fade-in">Partner Reviews</p>
+          <h2 class="section-title fade-in fade-in-delay-1">What Our Partners Say</h2>
+        </div>
+
+        <div class="testimonials-scroll" role="list">
+
+          <article class="testimonial-card fade-in" role="listitem">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+            </div>
+            <blockquote class="testimonial-quote">
+              "We outfitted 200 couriers across six Eastern European markets in a single order. Nuvio Gear's account management made the process seamless — on-spec, on time, and at volume pricing we couldn't match elsewhere."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">T</div>
+              <div>
+                <div class="author-name">Tomas V.</div>
+                <div class="author-city">Fleet Manager — Eastern Europe</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card fade-in fade-in-delay-1" role="listitem">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+            </div>
+            <blockquote class="testimonial-quote">
+              "Switching to Nuvio Gear cut our equipment turnover rate by 40%. The quality is a different league from our previous supplier. Our couriers notice it immediately and the feedback from the field has been overwhelmingly positive."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">S</div>
+              <div>
+                <div class="author-name">Sophie L.</div>
+                <div class="author-city">Operations Director — Last-Mile Delivery</div>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card fade-in fade-in-delay-2" role="listitem">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+              <svg class="star" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l1.8 3.6L14 5.4l-3 2.9.7 4.1L8 10.3l-3.7 2.1.7-4.1-3-2.9 4.2-.8z"/></svg>
+            </div>
+            <blockquote class="testimonial-quote">
+              "The custom branding programme is excellent — we had 350 co-branded hard bags delivered within the agreed lead time. The procurement process was transparent with dedicated support throughout. A true B2B partner."
+            </blockquote>
+            <div class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">R</div>
+              <div>
+                <div class="author-name">Rafał K.</div>
+                <div class="author-city">Procurement Lead — Food Delivery Network</div>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand column -->
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" aria-label="Nuvio Gear Home">
+            <img src="assets/images/nuvio_white_transparent2.png" alt="Nuvio Gear" style="height: 80px; width: auto;">
+          </a>
+          <p class="footer-tagline">
+            Built for the Road. Engineered for Couriers. Premium delivery equipment for the professionals who keep cities moving.
+          </p>
+          <div class="footer-social" aria-label="Social media links">
+            <!-- Instagram -->
+            <a href="#" class="social-link" aria-label="Follow Nuvio Gear on Instagram" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="2" y="2" width="20" height="20" rx="5"/>
+                <circle cx="12" cy="12" r="4"/>
+                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+              </svg>
+            </a>
+            <!-- LinkedIn -->
+            <a href="#" class="social-link" aria-label="Follow Nuvio Gear on LinkedIn" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </a>
+            <!-- Facebook -->
+            <a href="#" class="social-link" aria-label="Follow Nuvio Gear on Facebook" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Shop column -->
+        <div>
+          <h3 class="footer-col-title">Catalogue</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="products.html?cat=safety-equipment" class="footer-link">Safety Equipment</a></li>
+            <li><a href="products.html?cat=vehicles" class="footer-link">Vehicles</a></li>
+            <li><a href="products.html?cat=apparel" class="footer-link">Apparel &amp; Uniforms</a></li>
+            <li><a href="products.html?cat=delivery-bags" class="footer-link">Delivery Bags</a></li>
+            <li><a href="products.html" class="footer-link">Full Catalogue</a></li>
+          </ul>
+        </div>
+
+        <!-- Company column -->
+        <div>
+          <h3 class="footer-col-title">Company</h3>
+          <ul class="footer-links" role="list">
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="#fleet" class="footer-link">B2B / Fleet</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+            <li><a href="#" class="footer-link">Press</a></li>
+            <li><a href="#" class="footer-link">Careers</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div>
+          <h3 class="footer-col-title">Stay Updated</h3>
+          <p style="font-size:13px; color: var(--color-text-muted); margin-bottom: var(--space-md);">
+            New gear drops, courier tips and exclusive deals.
+          </p>
+          <form class="newsletter-form" action="#" method="post" aria-label="Newsletter signup">
+            <input
+              type="email"
+              class="newsletter-input"
+              placeholder="your@email.com"
+              aria-label="Email address"
+              required
+            >
+            <button type="submit" class="btn btn-primary btn-sm" style="width:100%">Subscribe</button>
+          </form>
+        </div>
+
+      </div><!-- /footer-grid -->
+
+      <hr class="divider">
+
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 Nuvio Gear. All rights reserved.</p>
+        <nav class="footer-legal" aria-label="Legal links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </nav>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ── SCRIPTS ── -->
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

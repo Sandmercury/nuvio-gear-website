@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#1A1A1A"/>
+  <pattern id="g11" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="30" x2="30" y2="0" stroke="#C6FF00" stroke-width="0.4" opacity="0.12"/>
+  </pattern>
+  <rect width="400" height="300" fill="url(#g11)"/>
+  <!-- Icon -->
+  <g transform="translate(180,60) scale(1.5)" stroke="#C6FF00" fill="none"><ellipse cx="15" cy="22" rx="6" ry="10" stroke="currentColor" stroke-width="2" fill="none"/><line x1="10" y1="18" x2="20" y2="18" stroke="currentColor" stroke-width="1.5"/><line x1="10" y1="26" x2="20" y2="26" stroke="currentColor" stroke-width="1.5"/><ellipse cx="28" cy="18" rx="5" ry="8" stroke="currentColor" stroke-width="2" fill="none"/><line x1="24" y1="15" x2="32" y2="15" stroke="currentColor" stroke-width="1.5"/><line x1="24" y1="21" x2="32" y2="21" stroke="currentColor" stroke-width="1.5"/></g>
+  <!-- Labels -->
+  <text x="200" y="195" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="3">PROTECTIVE GEAR</text>
+  <text x="200" y="220" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#888888">Knee & elbow guards</text>
+  <!-- Corner accents -->
+  <polygon points="0,0 50,0 0,50" fill="#C6FF00" opacity="0.08"/>
+  <polygon points="400,300 350,300 400,250" fill="#C6FF00" opacity="0.08"/>
+</svg>

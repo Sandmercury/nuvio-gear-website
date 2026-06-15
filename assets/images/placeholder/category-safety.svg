@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <rect width="400" height="500" fill="#111111"/>
+  <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+    <circle cx="15" cy="15" r="1.5" fill="#C6FF00" opacity="0.2"/>
+  </pattern>
+  <rect width="400" height="500" fill="url(#dots)"/>
+  <!-- Shield / vest icon -->
+  <path d="M200 130 L260 155 L260 240 Q260 295 200 320 Q140 295 140 240 L140 155 Z" fill="none" stroke="#C6FF00" stroke-width="3"/>
+  <!-- Reflective stripes on vest -->
+  <line x1="150" y1="210" x2="250" y2="210" stroke="#C6FF00" stroke-width="4" opacity="0.9"/>
+  <line x1="150" y1="230" x2="250" y2="230" stroke="#C6FF00" stroke-width="4" opacity="0.9"/>
+  <!-- Star burst / light symbol -->
+  <circle cx="200" cy="270" r="16" fill="none" stroke="#C6FF00" stroke-width="2"/>
+  <line x1="200" y1="248" x2="200" y2="242" stroke="#C6FF00" stroke-width="2"/>
+  <line x1="200" y1="292" x2="200" y2="298" stroke="#C6FF00" stroke-width="2"/>
+  <line x1="178" y1="270" x2="172" y2="270" stroke="#C6FF00" stroke-width="2"/>
+  <line x1="222" y1="270" x2="228" y2="270" stroke="#C6FF00" stroke-width="2"/>
+  <line x1="184" y1="254" x2="180" y2="250" stroke="#C6FF00" stroke-width="1.5"/>
+  <line x1="216" y1="286" x2="220" y2="290" stroke="#C6FF00" stroke-width="1.5"/>
+  <line x1="216" y1="254" x2="220" y2="250" stroke="#C6FF00" stroke-width="1.5"/>
+  <line x1="184" y1="286" x2="180" y2="290" stroke="#C6FF00" stroke-width="1.5"/>
+  <circle cx="200" cy="270" r="6" fill="#C6FF00"/>
+  <!-- Label -->
+  <text x="200" y="375" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="4">SAFETY GEAR</text>
+  <text x="200" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#AAAAAA">Vests, lights &amp; gloves</text>
+  <polygon points="0,0 80,0 0,80" fill="#C6FF00" opacity="0.1"/>
+</svg>

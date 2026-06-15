@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#1A1A1A"/>
+  <pattern id="p1" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="10" height="10" fill="#C6FF00" opacity="0.04"/>
+  </pattern>
+  <rect width="400" height="400" fill="url(#p1)"/>
+  <rect x="120" y="90" width="160" height="210" rx="14" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <rect x="148" y="70" width="104" height="28" rx="7" fill="none" stroke="#C6FF00" stroke-width="2"/>
+  <line x1="140" y1="185" x2="260" y2="185" stroke="#C6FF00" stroke-width="1.5" opacity="0.5" stroke-dasharray="6,4"/>
+  <line x1="140" y1="205" x2="260" y2="205" stroke="#C6FF00" stroke-width="1.5" opacity="0.5" stroke-dasharray="6,4"/>
+  <line x1="140" y1="225" x2="260" y2="225" stroke="#C6FF00" stroke-width="1.5" opacity="0.5" stroke-dasharray="6,4"/>
+  <path d="M178 148 Q183 130 193 135 Q188 120 200 112 Q204 128 196 138 Q205 132 208 148 Q200 157 193 153 Q185 157 178 148Z" fill="#C6FF00" opacity="0.9"/>
+  <text x="200" y="338" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" letter-spacing="2">NG-THERMO PRO 40L</text>
+  <text x="200" y="358" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="20" font-weight="800" fill="#C6FF00">€89</text>
+</svg>

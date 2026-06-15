@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#111111"/>
+  <pattern id="p8" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="36" x2="36" y2="0" stroke="#C6FF00" stroke-width="0.5" opacity="0.12"/>
+    <line x1="0" y1="0" x2="36" y2="36" stroke="#C6FF00" stroke-width="0.5" opacity="0.12"/>
+  </pattern>
+  <rect width="400" height="400" fill="url(#p8)"/>
+  <!-- Handlebar -->
+  <path d="M120 145 Q155 108 200 108 Q245 108 280 145" fill="none" stroke="#C6FF00" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="120" cy="145" r="8" fill="#C6FF00" opacity="0.6"/>
+  <circle cx="280" cy="145" r="8" fill="#C6FF00" opacity="0.6"/>
+  <!-- Bag body -->
+  <rect x="148" y="108" width="104" height="130" rx="12" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <!-- straps to bar -->
+  <line x1="172" y1="108" x2="164" y2="130" stroke="#C6FF00" stroke-width="2" opacity="0.6"/>
+  <line x1="228" y1="108" x2="236" y2="130" stroke="#C6FF00" stroke-width="2" opacity="0.6"/>
+  <!-- Pocket -->
+  <rect x="163" y="170" width="74" height="55" rx="6" fill="none" stroke="#C6FF00" stroke-width="2" opacity="0.6"/>
+  <!-- Zipper -->
+  <line x1="170" y1="184" x2="230" y2="184" stroke="#C6FF00" stroke-width="1.5" opacity="0.4" stroke-dasharray="4,3"/>
+  <text x="200" y="278" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" letter-spacing="2">NG-HANDLEBAR BAG</text>
+  <text x="200" y="298" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="20" font-weight="800" fill="#C6FF00">€39</text>
+</svg>

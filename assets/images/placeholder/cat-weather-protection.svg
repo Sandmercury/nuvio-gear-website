@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#1A1A1A"/>
+  <pattern id="g10" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="30" x2="30" y2="0" stroke="#C6FF00" stroke-width="0.4" opacity="0.12"/>
+  </pattern>
+  <rect width="400" height="300" fill="url(#g10)"/>
+  <!-- Icon -->
+  <g transform="translate(180,60) scale(1.5)" stroke="#C6FF00" fill="none"><path d="M10 20 Q20 6 30 20 L30 32 Q20 36 10 32 Z" stroke="currentColor" stroke-width="2" fill="none"/><line x1="20" y1="20" x2="20" y2="10" stroke="currentColor" stroke-width="1.5" opacity="0.5"/><line x1="14" y1="38" x2="14" y2="32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="20" y1="38" x2="20" y2="32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="26" y1="38" x2="26" y2="32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></g>
+  <!-- Labels -->
+  <text x="200" y="195" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" letter-spacing="3">WEATHER PROTECTION</text>
+  <text x="200" y="220" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#888888">Raincoats & waterproofs</text>
+  <!-- Corner accents -->
+  <polygon points="0,0 50,0 0,50" fill="#C6FF00" opacity="0.08"/>
+  <polygon points="400,300 350,300 400,250" fill="#C6FF00" opacity="0.08"/>
+</svg>

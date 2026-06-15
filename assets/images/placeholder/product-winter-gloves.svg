@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#111111"/>
+  <pattern id="p7" x="0" y="0" width="25" height="25" patternUnits="userSpaceOnUse">
+    <circle cx="12.5" cy="12.5" r="1.5" fill="#C6FF00" opacity="0.15"/>
+  </pattern>
+  <rect width="400" height="400" fill="url(#p7)"/>
+  <!-- Glove left -->
+  <path d="M140 290 L140 210 Q140 195 155 195 Q165 195 170 205 L170 170 Q170 158 180 158 Q190 158 190 170 L190 200 L195 180 Q195 168 205 168 Q215 168 215 180 L215 200 L220 182 Q220 170 230 170 Q240 170 240 182 L240 210 Q255 205 258 215 Q262 228 250 235 L240 245 L240 290 Z" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <line x1="140" y1="270" x2="240" y2="270" stroke="#C6FF00" stroke-width="1.5" opacity="0.4"/>
+  <!-- touch fingertip markers -->
+  <circle cx="185" cy="165" r="4" fill="#C6FF00" opacity="0.7"/>
+  <circle cx="205" cy="175" r="4" fill="#C6FF00" opacity="0.7"/>
+  <circle cx="225" cy="178" r="4" fill="#C6FF00" opacity="0.7"/>
+  <text x="200" y="330" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="16" font-weight="700" fill="#FFFFFF" letter-spacing="2">NG-WINTER GLOVES</text>
+  <text x="200" y="350" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="20" font-weight="800" fill="#C6FF00">€55</text>
+</svg>

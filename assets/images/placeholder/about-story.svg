@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#1A1A1A"/>
+  <pattern id="ab" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+    <line x1="0" y1="50" x2="50" y2="0" stroke="#C6FF00" stroke-width="0.5" opacity="0.15"/>
+  </pattern>
+  <rect width="800" height="600" fill="url(#ab)"/>
+  <!-- City silhouette -->
+  <rect x="0" y="380" width="800" height="220" fill="#111111" opacity="0.8"/>
+  <rect x="60" y="280" width="60" height="100" fill="#111111" stroke="#C6FF00" stroke-width="1" opacity="0.7"/>
+  <rect x="140" y="240" width="80" height="140" fill="#111111" stroke="#C6FF00" stroke-width="1" opacity="0.7"/>
+  <rect x="250" y="200" width="100" height="180" fill="#111111" stroke="#C6FF00" stroke-width="1" opacity="0.7"/>
+  <rect x="380" y="260" width="70" height="120" fill="#111111" stroke="#C6FF00" stroke-width="1" opacity="0.7"/>
+  <rect x="480" y="220" width="90" height="160" fill="#111111" stroke="#C6FF00" stroke-width="1" opacity="0.7"/>
+  <rect x="600" y="270" width="60" height="110" fill="#111111" stroke="#C6FF00" stroke-width="1" opacity="0.7"/>
+  <rect x="690" y="300" width="80" height="80" fill="#111111" stroke="#C6FF00" stroke-width="1" opacity="0.7"/>
+  <!-- Courier figure -->
+  <circle cx="400" cy="310" r="22" fill="none" stroke="#C6FF00" stroke-width="2.5"/>
+  <line x1="400" y1="332" x2="400" y2="375" stroke="#C6FF00" stroke-width="3"/>
+  <line x1="375" y1="350" x2="400" y2="340" stroke="#C6FF00" stroke-width="2.5"/>
+  <line x1="425" y1="350" x2="400" y2="340" stroke="#C6FF00" stroke-width="2.5"/>
+  <line x1="384" y1="395" x2="400" y2="375" stroke="#C6FF00" stroke-width="2.5"/>
+  <line x1="416" y1="395" x2="400" y2="375" stroke="#C6FF00" stroke-width="2.5"/>
+  <!-- Bag on back -->
+  <rect x="406" y="336" width="24" height="28" rx="4" fill="#C6FF00" opacity="0.7"/>
+  <text x="400" y="490" text-anchor="middle" font-family="Barlow Condensed, sans-serif" font-size="28" font-weight="700" fill="#C6FF00" letter-spacing="4">NUVIO GEAR</text>
+  <text x="400" y="525" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#AAAAAA">Built for those who build cities.</text>
+</svg>
