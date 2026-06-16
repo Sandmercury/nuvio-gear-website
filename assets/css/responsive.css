@@ -257,6 +257,53 @@
   }
 }
 
+/* ── FEATURED PRODUCTS MOBILE FIX ── */
+@media (max-width: 767px) {
+
+  /* 2-column grid instead of horizontal flex scroll */
+  .product-scroll {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow-x: visible;
+    gap: var(--space-sm);
+  }
+
+  /* Allow cards to shrink into the grid columns */
+  .product-card {
+    min-width: 0;
+    flex-shrink: 1;
+  }
+
+  /* Cap image height and use cover so it doesn't stretch */
+  .bestsellers .product-card-image {
+    aspect-ratio: unset;
+    height: 200px;
+    max-height: 200px;
+  }
+
+  .bestsellers .product-card-image img,
+  .bestsellers .product-card-image svg {
+    width: 100%;
+    height: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+
+  /* Tighten section padding */
+  .bestsellers {
+    padding-block: var(--space-xl);
+  }
+
+  .bestsellers-header {
+    margin-bottom: var(--space-lg);
+  }
+
+  /* Reduce space above VIEW FULL CATALOGUE button */
+  .bestsellers .container > div[style] {
+    margin-top: var(--space-lg) !important;
+  }
+}
+
 /* ── PRINT ── */
 @media print {
   .site-nav,
